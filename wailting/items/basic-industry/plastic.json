@@ -1,0 +1,19 @@
+{
+    "cost": 0.50,
+    "databaseTag": "processed-item",
+    "hardness": 1,
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "radioactivity": 0,
+    "explosiveness": 0,
+    "color": "E1E1E1",
+    "research": "basicindustry-plastic"
+}

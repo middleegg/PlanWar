@@ -1,0 +1,16 @@
+{
+    "cost": 1.1,
+    "color": "CE8B39FF",
+    "databaseTag": "processed-item",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "research": "basicindustry-metal-materials"
+}

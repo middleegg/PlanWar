@@ -1,0 +1,16 @@
+{
+    "cost": 1.0,
+    "databaseTag": "processed-item",
+    "color": "F4F0B4",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "research": "newindustry-alloy-and-crystal"
+}
