@@ -1,0 +1,25 @@
+{
+
+   "permanent": false,
+   "damageMultiplier": 1.6,
+   "healthMultiplier": 1.66,
+   "speedMultiplier": 1.1,
+   "reloadMultiplier": 1.4,
+   "disarm": false,
+   "show": true,
+   "reactive": false,
+   "color": "FF8C00",
+   "effectChance": 0.2,
+   "effect": {
+      "type": "ParticleEffect",
+      "particles": 3,
+      "baseLength": 6,
+      "length": 25,
+      "lifetime": 6,
+      "spin": 9,
+      "sizeFrom": 1.8,
+      "sizeTo": 0,
+      "colorFrom": "FF8C00",
+      "colorTo": "FF8C00"
+   }
+}

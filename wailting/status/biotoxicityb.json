@@ -1,0 +1,11 @@
+{
+   "damageMultiplier": 0.7,
+   "healthMultiplier": 0.85,
+   "speedMultiplier": 0.7,
+   "reloadMultiplier": 0.85,
+   "damage": 0.1,
+   "permanent": false,
+   "reactive": false,
+   "color": "7E9B6BFF",
+   "disarm": false
+}
