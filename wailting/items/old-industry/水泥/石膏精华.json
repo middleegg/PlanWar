@@ -1,0 +1,9 @@
+{
+    "research": "石膏",
+    "cost": 1.0,
+    "hardness": 5,
+    "radioactivity": 0.36,
+    "explosiveness": 0.3,
+    "flammability": 0.1,
+    "color": "FFE07B"
+}

@@ -1,0 +1,12 @@
+{
+	"type": "item",
+	"name": "plan核能晶体",
+	"description": "（想不出来什么骚话）",
+	"cost": 1,
+	"color": "3F991BFF",
+	"research": "plan晶体"
+	"radioactivity":1,
+	"flammability":0.55,
+	"charge":0.98,
+	"explosiveness":0.45,
+}

@@ -1,0 +1,12 @@
+{
+	"cost": 1.0,
+	"color": "f3a0ff",
+	"research": "煤粉"
+/*"node": [
+		{ "item": "石灰", "amount": 20},
+		{ "item": "石膏", "amount": 10},
+		{ "item": "黏土", "amount": 40},
+		{ "item": "coal", "amount": 20},
+		{ "item": "sand", "amount": 60}
+	]*/
+}
