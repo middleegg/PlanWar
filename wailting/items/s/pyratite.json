@@ -1,0 +1,14 @@
+{
+    "hardness": 2,
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTag": "processed-item"
+}

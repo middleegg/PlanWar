@@ -1,0 +1,16 @@
+{
+    "databaseTag": "technology-item",
+    "cost": 1.0,
+    "color": "444553FF",
+    "research": "plan-war",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ]
+}

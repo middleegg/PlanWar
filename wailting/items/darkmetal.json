@@ -1,0 +1,16 @@
+{
+    "databaseTag": "processed-item",
+    "cost": 1.0,
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "color": "49465EFF",
+    "research": "plan-war"
+}
