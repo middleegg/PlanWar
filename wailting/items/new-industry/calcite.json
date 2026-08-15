@@ -1,0 +1,16 @@
+{
+    "cost": 1.0,
+    "databaseTag": "natural-item",
+    "color": "A2D4D8",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "research": "newindustry-building-materials"
+}

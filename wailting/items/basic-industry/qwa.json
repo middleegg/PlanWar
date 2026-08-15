@@ -1,0 +1,15 @@
+{
+    "cost": 1.0,
+    "databaseTag": "technology-item",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "research": "qwe"
+}

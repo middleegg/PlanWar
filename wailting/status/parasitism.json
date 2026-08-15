@@ -1,0 +1,10 @@
+{
+    "reloadMultiplier": 0.8,
+    "speedMultiplier": 0.8,
+    "transitionDamage": 10,
+    "damage": 1.25,
+    "permanent": false,
+    "disarm": false,
+    "outline": false,
+    "effect": "burning"
+}

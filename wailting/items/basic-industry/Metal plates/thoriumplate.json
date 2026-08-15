@@ -1,0 +1,16 @@
+{
+    "cost": 1.4,
+    "databaseTag": "processed-item",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "color": "F9A3C7FF",
+    "research": "plastaniumplate"
+}

@@ -1,0 +1,19 @@
+{
+    "damage": 1.25,
+    "permanent": false,
+    "disarm": false,
+    "outline": false,
+    "effectChance": 0.2,
+    "effect": {
+        "type": "ParticleEffect",
+        "particles": 3,
+        "baseLength": 0,
+        "length": 25,
+        "lifetime": 30,
+        "spin": 9,
+        "sizeFrom": 1.8,
+        "sizeTo": 0,
+        "colorFrom": "85E894FF",
+        "colorTo": "85E894FF"
+    }
+}

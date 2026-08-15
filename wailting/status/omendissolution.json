@@ -1,0 +1,12 @@
+{
+    "permanent": true,
+    "damageMultiplier": 0.5,
+    "healthMultiplier": 0.35,
+    "speedMultiplier": 1.4,
+    "reloadMultiplier": 0.85,
+    "disarm": false,
+    "show": true,
+    "color": "727272FF",
+    "damage": 5,
+    "effectChance": 0.2
+}

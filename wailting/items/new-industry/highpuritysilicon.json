@@ -1,0 +1,16 @@
+{
+    "research": "newindustry-building-materials",
+    "databaseTag": "processed-item",
+    "cost": 1.1,
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "color": "53565c"
+}

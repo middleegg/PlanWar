@@ -1,0 +1,11 @@
+{
+    "heatCapacity": 1.2,
+    "temperature": 0.15,
+    "lightColor": "FEB995FF",
+    "databaseTag": "liquid-fluid",
+    "shownPlanets": [
+        "erekir"
+    ],
+    "research": "arkycite",
+    "color": "E37940FF"
+}

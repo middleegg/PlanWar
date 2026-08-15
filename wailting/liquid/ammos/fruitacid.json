@@ -1,0 +1,29 @@
+{
+    "type": "CellLiquid",
+    "hidden": true,
+    "alwaysUnlocked": true,
+    "databaseTag": "liquid-fluid",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "moveThroughBlocks": true,
+    "incinerable": true,
+    "capPuddles": true,
+    "colorFrom": "7CE163FF",
+    "colorTo": "D0E063FF",
+    "color": "96C03AFF",
+    "spreadDamage": 0.5,
+    "maxSpread": 3,
+    "spreadConversion": 0.5,
+    "cells": 0.6,
+    "heatCapacity": 0.8,
+    "temperature": 0.1,
+    "spreadTarget": "water"
+}

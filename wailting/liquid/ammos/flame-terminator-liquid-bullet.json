@@ -1,0 +1,22 @@
+{
+    "hidden": true,
+    "coolant": false,
+    "type": "Liquid",
+    "color": "596ab8",
+    "lightColor": "596ab8",
+    "heatCapacity": 0.9,
+    "temperature": 0.25,
+    "effect": "none",
+    "databaseTag": "liquid-fluid",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "boilPoint": 0.55
+}

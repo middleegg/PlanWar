@@ -1,0 +1,32 @@
+{
+    "damageMultiplier": 0.67,
+    "healthMultiplier": 0.65,
+    "speedMultiplier": 0.75,
+    "reloadMultiplier": 0.86,
+    "damage": 0.33,
+    "permanent": true,
+    "reactive": false,
+    "color": "1EB400FF",
+    "disarm": false,
+    "transitionDamage": 100,
+    "affinities": [
+        "blasted",
+        "spore-slowed",
+        "shocked",
+        "electrified",
+        "acidetch"
+    ],
+    "opposites": [
+        "wet",
+        "alkalietching"
+    ],
+    "effect": {
+        "type": "WaveEffect",
+        "lifetime": 5,
+        "sizeFrom": 1,
+        "sizeTo": 1.7,
+        "colorFrom": "1EB400FF",
+        "colorTo": "2BFF00FF"
+    },
+    "effectChance": 0.02
+}

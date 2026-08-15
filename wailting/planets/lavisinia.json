@@ -1,0 +1,203 @@
+{
+    "generator": {},
+    "parent": "sun",
+    "launchCandidates": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "lavisinic"
+    ],
+    "children": [
+        "lavisinib"
+    ],
+    "iconColor": "90dbff",
+    "orbitRadius": 50,
+    "orbitTime": 12000,
+    "rotateTime": 1200,
+    "hasAtmosphere": true,
+    "updateLighting": true,
+    "atmosphereRadIn": 0.02,
+    "atmosphereRadOut": 0.4,
+    "atmosphereColor": "CCCCCCB5",
+    "lightColor": "FFFFFFF6",
+    "landCloudColor": "CBCBCBFF",
+    "allowSelfSectorLaunch": false,
+    "defaultAttributes": {
+        "spores": -1,
+        "steam": 1
+    },
+    "drawOrbit": true,
+    "accessible": true,
+    "lightSrcFrom": 0,
+    "lightSrcTo": 0.8,
+    "lightDstFrom": 0.25,
+    "lightDstTo": 0.85,
+    "research": "plan-war",
+    "defaultCore": "core-nucleus",
+    "sectorSeed": 0,
+    "alwaysUnlocked": true,
+    "startSector": 170,
+    "sectorSize": 3.75,
+    "clearSectorOnLose": true,
+    "allowSectorInvasion": false,
+    "allowLaunchToNumbered": false,
+    "allowCampaignRules": true,
+    "showRtsAIRule": false,
+    "enemyCoreSpawnReplace": true,
+    "allowLaunchSchematics": true,
+    "launchMusic": "game4",
+    "allowLaunchLoadout": true,
+    "launchCapacityMultiplier": 0.5,
+    "tidalLock": false,
+    "prebuildBase": true,
+    "radius": 1,
+    "bloom": false,
+    "visible": true,
+    "minZoom": 1.2,
+    "maxZoom": 10,
+    "cloudMesh": {
+        "type": "MultiMesh",
+        "meshes": [
+            {
+                "type": "HexSkyMesh",
+                "planet": "lavisinia",
+                "seed": 9,
+                "speed": 2.8,
+                "radius": 0.07,
+                "divisions": 5,
+                "color": "C0C0C0F6",
+                "octaves": 2,
+                "persistence": 0.42,
+                "scl": 0.9,
+                "thresh": 0.43
+            },
+            {
+                "type": "HexSkyMesh",
+                "planet": "lavisinia",
+                "seed": 19,
+                "speed": 1,
+                "radius": 0.15,
+                "divisions": 5,
+                "color": "9A9A9AF6",
+                "octaves": 2,
+                "persistence": 0.4,
+                "scl": 0.5,
+                "thresh": 0.45
+            },
+            {
+                "type": "HexSkyMesh",
+                "planet": "lavisinia",
+                "seed": 29,
+                "speed": 0.6,
+                "radius": 0.2,
+                "divisions": 5,
+                "color": "D6EEEDF6",
+                "octaves": 2,
+                "persistence": 0.38,
+                "scl": 0.3,
+                "thresh": 0.47
+            },
+            {
+                "type": "HexSkyMesh",
+                "planet": "lavisinia",
+                "seed": 39,
+                "speed": 0.8,
+                "radius": 0.25,
+                "divisions": 5,
+                "color": "C0C0C0F6",
+                "octaves": 2,
+                "persistence": 0.38,
+                "scl": 0.3,
+                "thresh": 0.6
+            },
+            {
+                "type": "HexSkyMesh",
+                "planet": "lavisinia",
+                "seed": 49,
+                "speed": 1.2,
+                "radius": 0.3,
+                "divisions": 5,
+                "color": "FFFFFFF6",
+                "octaves": 2,
+                "persistence": 0.38,
+                "scl": 0.3,
+                "thresh": 0.75
+            }
+        ]
+    },
+    "mesh": {
+        "type": "MultiMesh",
+        "meshes": [
+            {
+                "type": "NoiseMesh",
+                "planet": "lavisinia",
+                "seed": 204,
+                "color1": "9A9A9AF6",
+                "color2": "C0C0C0F6",
+                "divisions": 6,
+                "radius": 1,
+                "octaves": 10,
+                "persistence": 0.5,
+                "scale": 1,
+                "mag": 0.5
+            },
+            {
+                "type": "NoiseMesh",
+                "planet": "lavisinia",
+                "seed": 3,
+                "color1": "FFFFFFF6",
+                "color2": "CCCCCCB5",
+                "divisions": 6,
+                "radius": 1,
+                "octaves": 6,
+                "persistence": 0.5,
+                "scale": 0.5,
+                "mag": 0.5
+            },
+            {
+                "type": "NoiseMesh",
+                "planet": "lavisinia",
+                "seed": 2,
+                "color1": "CBCBCBFF",
+                "color2": "CCCCCCB5",
+                "divisions": 6,
+                "radius": 0.982,
+                "octaves": 8,
+                "persistence": 0.5,
+                "scale": 2,
+                "mag": 0.5
+            },
+            {
+                "type": "NoiseMesh",
+                "planet": "lavisinia",
+                "seed": 9,
+                "color1": "9A9A9AF6",
+                "color2": "C0C0C0F6",
+                "divisions": 3,
+                "radius": 0.3,
+                "octaves": 8,
+                "persistence": 0.5,
+                "scale": 5,
+                "mag": 0.5
+            },
+            {
+                "type": "SunMesh",
+                "planet": "lavisinia",
+                "speed": 996,
+                "mag": 1.5,
+                "scl": 0.01,
+                "octaves": 6,
+                "persistence": 0.5,
+                "divisions": 2,
+                "pow": 1.2,
+                "colorScale": 1.1,
+                "colors": [
+                    "C0C0C0F6",
+                    "FFFFFFF6"
+                ]
+            }
+        ]
+    },
+    "defaultEnv": 225
+}

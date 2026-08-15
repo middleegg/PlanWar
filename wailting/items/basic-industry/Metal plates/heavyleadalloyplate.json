@@ -1,0 +1,16 @@
+{
+    "cost": 1.2,
+    "databaseTag": "processed-item",
+    "color": "A491CF",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "research": "lead-factory"
+}

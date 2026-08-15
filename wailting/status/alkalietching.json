@@ -1,0 +1,22 @@
+{
+    "damage": 0.45,
+    "permanent": false,
+    "reactive": false,
+    "color": "F7FDFFFF",
+    "disarm": false,
+    "transitionDamage": 20,
+    "affinities": [
+        "acidetch",
+        "strongacidetch",
+        "wet"
+    ],
+    "effect": {
+        "type": "WaveEffect",
+        "lifetime": 5,
+        "sizeFrom": 1,
+        "sizeTo": 1.7,
+        "colorFrom": "52C43BFF",
+        "colorTo": "52C43BFF"
+    },
+    "effectChance": 0.05
+}

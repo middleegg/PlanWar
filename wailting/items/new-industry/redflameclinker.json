@@ -1,0 +1,16 @@
+{
+    "cost": 1.0,
+    "databaseTag": "processed-item",
+    "color": "BBCF92",
+    "shownPlanets": [
+        "solarpale",
+        "lavisinia",
+        "serpulo",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "research": "mineralpowder"
+}

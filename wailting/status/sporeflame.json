@@ -1,0 +1,24 @@
+{
+    "healthMultiplier": 0.3,
+    "damageMultiplier": 0.4,
+    "reloadMultiplier": 0.8,
+    "speedMultiplier": 0.3,
+    "transitionDamage": 10,
+    "damage": 1.25,
+    "permanent": false,
+    "disarm": false,
+    "outline": false,
+    "effectChance": 0.2,
+    "effect": {
+        "type": "ParticleEffect",
+        "particles": 3,
+        "baseLength": 0,
+        "length": 25,
+        "lifetime": 30,
+        "spin": 9,
+        "sizeFrom": 1.8,
+        "sizeTo": 0,
+        "colorFrom": "EDF3A9FF",
+        "colorTo": "BA341EFF"
+    }
+}
