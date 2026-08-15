@@ -1,0 +1,38 @@
+{
+    "type": "GenericCrafter",
+    "health": 490,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 240,
+    "itemCapacity": 20,
+    "liquidCapacity": 48,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawFrames",
+                "frames": 37,
+                "sine": false,
+                "interval": 10
+            }
+        ]
+    },
+    "consumes": {
+        "power": 2,
+        "liquid": "water/0.09",
+        "items": [
+            "copper/6"
+        ]
+    },
+    "outputItem": "copperplate/3",
+    "requirements": [
+        "copper/110",
+        "lead/70",
+        "silicon/10"
+    ],
+    "category": "crafting",
+    "buildVisibility": "editorOnly"
+}

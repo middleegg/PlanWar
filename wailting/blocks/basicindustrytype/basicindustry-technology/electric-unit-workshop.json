@@ -1,0 +1,79 @@
+{
+    "type": "AttributeCrafter",
+    "baseEfficiency": 1,
+    "boostScale": 0.3,
+    "maxBoost": 5,
+    "minEfficiency": 0.1,
+    "attribute": "power1",
+    "health": 860,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "ambientSound": "stealth_on_humanoide9000",
+    "ambientSoundVolume": 0.05,
+    "itemCapacity": 20,
+    "updateEffect": {
+        "type": "MultiEffect",
+        "effects": [
+            {
+                "type": "ParticleEffect",
+                "particles": 1,
+                "sizeFrom": 5,
+                "sizeTo": 0,
+                "randLength": false,
+                "line": false,
+                "sizeChangeStart": 15,
+                "length": 20,
+                "baseLength": 5,
+                "interp": "pow2Out",
+                "region": "planwar-righticon",
+                "followParent": false,
+                "baseRotation": 90,
+                "lifetime": 25,
+                "colorFrom": "dedede",
+                "colorTo": "aaaaaa",
+                "cone": 0
+            }
+        ]
+    },
+    "updateEffectChance": 0.05,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawHeatInput",
+                "heatPulse": 0.3,
+                "heatPulseScl": 10
+            },
+            {
+                "type": "DrawCrucibleFlame",
+                "flameColor": "99F8FFFF",
+                "midColor": "D1FCFAFF"
+            }
+        ]
+    },
+    "consumes": {
+        "power": 8.55,
+        "liquid": "water/0.05",
+        "items": [
+            "qwe/5",
+            "qwa/1",
+            "coppergear/1"
+        ]
+    },
+    "outputItem": "zit/1",
+    "requirements": [
+        "copper/100",
+        "lead/50",
+        "silicon/60"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "basic-research-laboratory",
+        "requirements": [
+            "qwe/1000"
+        ]
+    }
+}

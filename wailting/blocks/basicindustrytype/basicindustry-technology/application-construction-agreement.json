@@ -1,0 +1,20 @@
+{
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawWarmupRegion",
+                "sinMag": 0.6,
+                "sinScl": 8,
+                "color": "9AAAE9FF"
+            }
+        ]
+    },
+    "research": {
+        "parent": "basic-research-laboratory",
+        "requirements": [
+            "qwe/2000"
+        ]
+    }
+}

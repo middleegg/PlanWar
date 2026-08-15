@@ -1,0 +1,53 @@
+{
+    "type": "GenericCrafter",
+    "health": 830,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 210,
+    "itemCapacity": 30,
+    "liquidCapacity": 60,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawRegion",
+                "suffix": "-spin",
+                "spinSprite": true,
+                "rotateSpeed": 3
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "suffix": "-liquid",
+                "drawLiquid": "water"
+            },
+            {
+                "type": "DrawFrames",
+                "frames": 4,
+                "interval": 3
+            }
+        ]
+    },
+    "consumes": {
+        "power": 2.5,
+        "liquid": "water/0.1",
+        "items": [
+            "lead/6"
+        ]
+    },
+    "outputItem": "heavyleadalloyplate/2",
+    "requirements": [
+        "copper/130",
+        "lead/160",
+        "silicon/40"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "copper-factory",
+        "requirements": [
+            "qwe/600"
+        ]
+    }
+}

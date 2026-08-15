@@ -1,0 +1,119 @@
+{
+    "shownPlanets": [
+        "erekir"
+    ],
+    "buildVisibility": "shown",
+    "research": "surge-crucible",
+    "databaseTabs": [
+        "erekir"
+    ],
+    "databaseCategory": "block",
+    "databaseTag": "crafting",
+    "outputsLiquid": true,
+    "acceptsItems": true,
+    "liquidCapacity": 80.0,
+    "solid": true,
+    "drawArrow": false,
+    "squareSprite": false,
+    "attributes": {},
+    "scaledHealth": 104.0,
+    "health": 935,
+    "sizeOffset": -1,
+    "clipSize": 24.0,
+    "lightClipSize": 180.0,
+    "sync": true,
+    "mapColor": "#967c7cff",
+    "hasColor": true,
+    "placeSound": "blockPlace3",
+    "breakSound": "blockBreak3",
+    "destroySound": "blockExplode3",
+    "emitLight": true,
+    "ambientSound": "loopMachine",
+    "ambientSoundVolume": 0.03,
+    "requirements": [
+        "graphite/60",
+        "silicon/40",
+        "oxide/40",
+        "carbide/70"
+    ],
+    "category": "crafting",
+    "buildTime": 238.0,
+    "region": "slag-centrifuge",
+    "outputLiquid": "gallium/0.016",
+    "outputLiquids": [
+        "gallium/0.016"
+    ],
+    "liquidOutputDirections": [],
+    "dumpExtraLiquid": true,
+    "ignoreLiquidFullness": false,
+    "craftTime": 120.0,
+    "craftEffect": "none",
+    "updateEffect": "none",
+    "updateEffectChance": 0.04,
+    "updateEffectSpread": 4.0,
+    "warmupSpeed": 0.02,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawRegion",
+                "region": "slag-centrifuge-bottom",
+                "suffix": "-bottom"
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "drawLiquid": "slag",
+                "liquid": "slag-centrifuge-liquid",
+                "alpha": 0.7
+            },
+            {
+                "type": "DrawGlowRegion",
+                "alpha": 0.4,
+                "glowIntensity": 0.3,
+                "rotateSpeed": 3.0,
+                "layer": -1.0,
+                "color": "#ff7f7fff",
+                "region": "slag-centrifuge-glow"
+            },
+            {
+                "type": "DrawGlowRegion",
+                "alpha": 0.4,
+                "glowIntensity": 0.3,
+                "rotateSpeed": 1.75,
+                "layer": -1.0,
+                "color": "#ff7f7fff",
+                "region": "slag-centrifuge-glow"
+            },
+            {
+                "type": "DrawGlowRegion",
+                "alpha": 0.4,
+                "glowIntensity": 0.3,
+                "rotateSpeed": 1.23,
+                "layer": -1.0,
+                "color": "#ff7f7fff",
+                "region": "slag-centrifuge-glow"
+            },
+            {
+                "type": "DrawGlowRegion",
+                "alpha": 0.4,
+                "glowIntensity": 0.3,
+                "rotateSpeed": 0.95,
+                "layer": -1.0,
+                "color": "#ff7f7fff",
+                "region": "slag-centrifuge-glow"
+            },
+            {
+                "type": "DrawGlowRegion",
+                "alpha": 0.4,
+                "glowIntensity": 0.3,
+                "rotateSpeed": 0.78,
+                "layer": -1.0,
+                "color": "#ff7f7fff",
+                "region": "slag-centrifuge-glow"
+            },
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    }
+}

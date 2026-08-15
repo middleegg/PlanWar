@@ -1,0 +1,53 @@
+{
+    "type": "AttributeCrafter",
+    "legacyReadWarmup": true,
+    "displayEfficiency": true,
+    "baseEfficiency": 0.5,
+    "boostScale": 0.3,
+    "maxBoost": 8.5,
+    "minEfficiency": 0.05,
+    "attribute": "power1",
+    "health": 730,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 60,
+    "itemCapacity": 25,
+    "liquidCapacity": 50,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawLiquidRegion",
+                "suffix": "-liquid",
+                "drawLiquid": "water"
+            },
+            {
+                "type": "DrawSoftParticles"
+            }
+        ]
+    },
+    "consumes": {
+        "power": 1.5,
+        "liquid": "water/0.0166",
+        "items": [
+            "copper/4"
+        ]
+    },
+    "outputItem": "coppergear/1",
+    "requirements": [
+        "copper/170",
+        "silicon/40",
+        "graphite/30"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "basicindustry-metal-materials",
+        "requirements": [
+            "qwe/500",
+            "qwa/100"
+        ]
+    }
+}

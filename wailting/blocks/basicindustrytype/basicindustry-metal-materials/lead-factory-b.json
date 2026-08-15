@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "health": 890,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "buildVisibility": "editorOnly",
+    "craftTime": 250,
+    "itemCapacity": 30,
+    "liquidCapacity": 60,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawFlame",
+                "flameRadius": 1.8,
+                "flameRadiusIn": 1.8,
+                "flameRadiusScl": 3,
+                "flameRadiusMag": 2,
+                "flameRadiusInMag": 1,
+                "flameColor": "BFAEE7FF"
+            }
+        ]
+    },
+    "consumes": {
+        "power": 2.5,
+        "liquid": "water/0.08",
+        "items": [
+            "lead/6"
+        ]
+    },
+    "outputItem": "heavyleadalloyplate/2",
+    "requirements": [
+        "copper/130",
+        "lead/160",
+        "silicon/40"
+    ],
+    "category": "crafting"
+}

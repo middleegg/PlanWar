@@ -1,0 +1,36 @@
+{
+    "type": "AttributeCrafter",
+    "baseEfficiency": 1,
+    "boostScale": 0.3,
+    "maxBoost": 5,
+    "minEfficiency": 0.1,
+    "attribute": "power1",
+    "health": 1360,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "ambientSound": "stealth_on_humanoide9000",
+    "ambientSoundVolume": 0.05,
+    "itemCapacity": 30,
+    "consumes": {
+        "power": 3,
+        "items": [
+            "qwe/1",
+            "qwa/1"
+        ]
+    },
+    "outputItem": "qws/1",
+    "requirements": [
+        "copper/180",
+        "silicon/60",
+        "graphite/60"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "basic-research-laboratory",
+        "requirements": [
+            "qwe/1000"
+        ]
+    }
+}

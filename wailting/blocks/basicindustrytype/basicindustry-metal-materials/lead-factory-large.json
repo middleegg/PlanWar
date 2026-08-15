@@ -1,0 +1,53 @@
+{
+    "type": "GenericCrafter",
+    "health": 1850,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 80,
+    "itemCapacity": 50,
+    "liquidCapacity": 600,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawLiquidRegion",
+                "suffix": "-liquid",
+                "drawLiquid": "water"
+            },
+            {
+                "type": "DrawArcSmelt",
+                "flameColor": "7510ACAD",
+                "midColor": "540694AD",
+                "particleLife": 60,
+                "particles": 20
+            }
+        ]
+    },
+    "consumes": {
+        "power": 21,
+        "liquid": "water/0.65",
+        "items": [
+            "lead/10"
+        ]
+    },
+    "outputItem": "heavyleadalloyplate/3",
+    "requirements": [
+        "copper/180",
+        "copperplate/70",
+        "silicon/180",
+        "graphite/30",
+        "titaniumplate/90"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "lead-factory",
+        "requirements": [
+            "qwe/1000",
+            "qwa/200",
+            "qws/100"
+        ]
+    }
+}

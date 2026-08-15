@@ -1,0 +1,14 @@
+{
+    "type": "Wall",
+    "health": 10,
+    "size": 1,
+    "buildVisibility": "editorOnly",
+    "requirements": [],
+    "category": "effect",
+    "research": {
+        "parent": "oh-notechnologytype",
+        "requirements": [
+            "qwa/100"
+        ]
+    }
+}

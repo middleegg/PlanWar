@@ -1,0 +1,58 @@
+{
+    "type": "GenericCrafter",
+    "health": 490,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 300,
+    "itemCapacity": 20,
+    "liquidCapacity": 48,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawRegion",
+                "suffix": "-spin",
+                "spinSprite": true,
+                "rotateSpeed": 3
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "suffix": "-water",
+                "drawLiquid": "water"
+            },
+            {
+                "type": "DrawFrames",
+                "frames": 3,
+                "interval": 3
+            },
+            {
+                "type": "DrawRegion",
+                "suffix": "-top"
+            }
+        ]
+    },
+    "consumes": {
+        "power": 2,
+        "liquid": "water/0.09",
+        "items": [
+            "copper/4"
+        ]
+    },
+    "outputItem": "copperplate/2",
+    "requirements": [
+        "copper/110",
+        "lead/70",
+        "silicon/10"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "basicindustry-metal-materials",
+        "requirements": [
+            "qwe/200",
+            "qwa/100"
+        ]
+    }
+}

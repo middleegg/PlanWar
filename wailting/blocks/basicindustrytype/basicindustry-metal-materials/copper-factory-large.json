@@ -1,0 +1,49 @@
+{
+    "type": "GenericCrafter",
+    "health": 1550,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 70,
+    "itemCapacity": 50,
+    "liquidCapacity": 500,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawWarmupRegion",
+                "sinMag": 0.6,
+                "sinScl": 8
+            },
+            {
+                "type": "DrawArcSmelt"
+            }
+        ]
+    },
+    "consumes": {
+        "power": 15,
+        "liquid": "water/0.6",
+        "items": [
+            "copper/10"
+        ]
+    },
+    "outputItem": "copperplate/4",
+    "requirements": [
+        "copper/200",
+        "lead/80",
+        "silicon/200",
+        "graphite/50",
+        "heavyleadalloyplate/50"
+    ],
+    "category": "crafting",
+    "research": {
+        "parent": "copper-factory",
+        "requirements": [
+            "qwe/800",
+            "qwa/200",
+            "qws/100"
+        ]
+    }
+}

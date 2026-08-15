@@ -1,0 +1,70 @@
+{
+    "type": "GenericCrafter",
+    "requirements": [
+        "copper/300",
+        "lead/80",
+        "silicon/60"
+    ],
+    "health": 1050,
+    "buildVisibility": "sandboxOnly",
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "itemCapacity": 40,
+    "liquidCapacity": 480,
+    "craftTime": 110,
+    "category": "crafting",
+    "alwaysUnlocked": true,
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "items": {
+            "items": [
+                "copper/6"
+            ]
+        },
+        "power": 2.22,
+        "liquids": {
+            "liquids": [
+                "water/0.5",
+                "oil/0.5"
+            ]
+        }
+    },
+    "size": 4,
+    "outputItem": {
+        "item": "copperplate",
+        "amount": 4
+    },
+    "outputLiquid": {
+        "liquid": "flame_spore",
+        "amount": 1
+    },
+    "ambientSound": "grinding",
+    "ambientSoundVolume": 0.015,
+    "drawer": [
+        {
+            "type": "DrawDefault"
+        },
+        {
+            "type": "DrawMulti"
+        },
+        {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "water"
+        },
+        {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "flame_spore"
+        },
+        {
+            "type": "DrawRegion",
+            "suffix": "-spin",
+            "spinSprite": true,
+            "rotateSpeed": 2
+        },
+        {
+            "type": "DrawRegion",
+            "suffix": "-top"
+        }
+    ]
+}

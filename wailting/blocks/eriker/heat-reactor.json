@@ -1,0 +1,76 @@
+{
+    "research": "slag-heater",
+    "shownPlanets": [
+        "erekir"
+    ],
+    "databaseTabs": [
+        "erekir"
+    ],
+    "databaseCategory": "block",
+    "buildVisibility": "shown",
+    "databaseTag": "crafting",
+    "acceptsItems": true,
+    "itemCapacity": 20,
+    "size": 3,
+    "liquidCapacity": 10.0,
+    "solid": true,
+    "rotate": true,
+    "rotateDraw": false,
+    "attributes": {},
+    "scaledHealth": 112,
+    "health": 1005,
+    "sizeOffset": -1,
+    "clipSize": 24.0,
+    "lightClipSize": 24.0,
+    "sync": true,
+    "mapColor": "#887b82ff",
+    "hasColor": true,
+    "canOverdrive": false,
+    "placeSound": "blockPlace3",
+    "breakSound": "blockBreak3",
+    "destroySound": "blockExplode3",
+    "ambientSound": "loopMachine",
+    "ambientSoundVolume": 0.03,
+    "requirements": [
+        "graphite/20",
+        "thorium/80",
+        "oxide/70",
+        "carbide/10"
+    ],
+    "category": "crafting",
+    "buildTime": 206.0,
+    "region": "heat-reactor",
+    "outputItems": [
+        "fissile-matter/2"
+    ],
+    "liquidOutputDirections": [],
+    "dumpExtraLiquid": true,
+    "ignoreLiquidFullness": false,
+    "craftTime": 600.0,
+    "craftEffect": {
+        "type": "RadialEffect",
+        "effect": "heatReactorSmoke",
+        "lengthOffset": 7.0
+    },
+    "updateEffect": "none",
+    "updateEffectChance": 0.04,
+    "updateEffectSpread": 4.0,
+    "warmupSpeed": 0.019,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawHeatOutput",
+                "heat": "heat-reactor-heat",
+                "glow": "heat-reactor-glow",
+                "top1": "heat-reactor-top1",
+                "top2": "heat-reactor-top2"
+            }
+        ]
+    },
+    "heatOutput": 10.0,
+    "warmupRate": 0.15
+}

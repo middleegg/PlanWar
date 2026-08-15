@@ -1,0 +1,11 @@
+{
+   "type": "Wall",
+   "health": 10,
+   "size": 1,
+   "buildVisibility": "editorOnly",
+   "category": "effect",
+   "research": {
+      "root": true,
+      "name": "PlanWar"
+   }
+}

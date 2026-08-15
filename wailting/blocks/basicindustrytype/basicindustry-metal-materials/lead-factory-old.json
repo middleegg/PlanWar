@@ -1,0 +1,67 @@
+{
+    "type": "GenericCrafter",
+    "requirements": [
+        "copper/300",
+        "lead/80",
+        "silicon/60"
+    ],
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "buildVisibility": "sandboxOnly",
+    "itemCapacity": 40,
+    "liquidCapacity": 240,
+    "craftTime": 90,
+    "category": "crafting",
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "items": {
+            "items": [
+                "lead/15"
+            ]
+        },
+        "power": 2.35,
+        "liquids": {
+            "liquids": [
+                "water/0.5"
+            ]
+        }
+    },
+    "size": 4,
+    "outputItem": {
+        "item": "heavyleadalloyplate",
+        "amount": 3
+    },
+    "outputLiquid": {
+        "liquid": "flame_spore",
+        "amount": 1
+    },
+    "ambientSound": "grinding",
+    "ambientSoundVolume": 0.015,
+    "drawer": [
+        {
+            "type": "DrawDefault"
+        },
+        {
+            "type": "DrawMulti"
+        },
+        {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "water"
+        },
+        {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "flame_spore"
+        },
+        {
+            "type": "DrawRegion",
+            "suffix": "-spin",
+            "spinSprite": true,
+            "rotateSpeed": 2
+        },
+        {
+            "type": "DrawRegion",
+            "suffix": "-top"
+        }
+    ]
+}
