@@ -1,0 +1,107 @@
+{
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc"
+    ],
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseCategory": "unit",
+    "databaseTag": "unit-ground",
+    "speed": 1.0,
+    "hitSize": 8.0,
+    "stepShake": 0.0,
+    "health": 150.0,
+    "range": 40.0,
+    "maxRange": 40.0,
+    "dpsEstimate": 10,
+    "clipSize": 80.0,
+    "researchCostMultiplier": 0.5,
+    "flyingLayer": 115.0,
+    "aimDst": 16.0,
+    "mineBeamOffset": 4.0,
+    "lightRadius": 60.0,
+    "fogRadius": 21.75,
+    "singleTarget": true,
+    "targetUnderBlocks": false,
+    "weapons": [
+        {
+            "type": "Weapon",
+            "bullet": {
+                "type": "BulletType",
+                "speed": 0.0,
+                "hitEffect": "pulverize",
+                "buildingDamageMultiplier": 1.5,
+                "killShooter": true,
+                "instantDisappear": true,
+                "splashDamage": 80.0,
+                "collidesTiles": false,
+                "collides": false,
+                "hittable": false,
+                "rangeOverride": 25.0,
+                "range": 25.0,
+                "despawnHit": true,
+                "splashDamageRadius": 44.0,
+                "lightningType": "damageLightning",
+                "lightRadius": 20.0,
+                "cachedDps": 61.0
+            },
+            "mirror": false,
+            "reload": 24.0,
+            "recoilTime": 24.0,
+            "shootY": 0.0,
+            "x": 0.0,
+            "shoot": {
+                "type": "ShootPattern"
+            },
+            "shootCone": 180.0,
+            "shootSound": "explosionCrawler",
+            "shootSoundVolume": 0.4,
+            "shootOnDeath": true
+        }
+    ],
+    "deathSound": "unitExplode1",
+    "wreckSound": "wreckFall",
+    "stepSound": "walkerStepTiny",
+    "stepSoundVolume": 0.2,
+    "engines": [
+        {
+            "y": -5.0,
+            "radius": 2.5,
+            "rotation": -90.0
+        }
+    ],
+    "flowfieldPathType": 0,
+    "defaultCommand": "move",
+    "stances": [
+        "stop",
+        "holdfire",
+        "pursuetarget",
+        "patrol",
+        "ram"
+    ],
+    "itemCapacity": 30,
+    "ammoCapacity": 87,
+    "mechSideSway": 0.25,
+    "mechStride": 4.0,
+    "segmentSpacing": 8.0,
+    "type": "mech"
+}

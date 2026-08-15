@@ -1,0 +1,75 @@
+{
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc"
+    ],
+    "mineSpeed": 3.25,
+    "accel": 10,
+    "itemCapacity": 75,
+    "buildSpeed": 1.5,
+    "weapons": [
+        {
+            "name": "small-mount-weapon",
+            "reload": 12,
+            "x": 2.8,
+            "y": 1,
+            "rotate": true,
+            "rotateSpeed": 9,
+            "inaccuracy": 0,
+            "shoot": {
+                "shots": 2,
+                "shotDelay": 3
+            },
+            "shootSound": "shootAlpha",
+            "alternate": true,
+            "ejectEffect": "casing1",
+            "bullet": {
+                "type": "LaserBoltBulletType",
+                "lifetime": 60,
+                "speed": 3.5,
+                "damage": 11,
+                "hitEffect": "hitBulletColor",
+                "despawnEffect": "hitBulletColor",
+                "shootEffect": "shootSmallColor",
+                "smokeEffect": "hitLaserColor",
+                "buildingDamageMultiplier": 1.5,
+                "keepVelocity": false,
+                "range": 180.0,
+                "hitColor": "#ffd27eff",
+                "trailColor": "#ffd27eff",
+                "trailLength": 5,
+                "trailWidth": 1.5,
+                "lightningType": "damageLightning",
+                "lightRadius": 20.0,
+                "cachedDps": 11.0,
+                "backColor": "#ffd27eff",
+                "frontColor": "#ffffffff",
+                "width": 2,
+                "height": 5,
+                "homingRange": 20,
+                "homingPower": 0.03
+            }
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc"
+    ],
+    "databaseCategory": "unit",
+    "databaseTag": "unit-ground",
+    "speed": 0.550000011920929,
+    "boostMultiplier": 1.5,
+    "hitSize": 8.0,
+    "stepShake": 0.0,
+    "health": 120.0,
+    "armor": 1.0,
+    "range": 152.0,
+    "maxRange": 152.0,
+    "dpsEstimate": 32.5,
+    "clipSize": 92.0,
+    "flyingLayer": 115.0,
+    "buildSpeed": 0.30000001192092896,
+    "aimDst": 16.0,
+    "mineBeamOffset": 4.0,
+    "lightRadius": 60.0,
+    "fogRadius": 21.75,
+    "canBoost": true,
+    "canHeal": true,
+    "singleTarget": true,
+    "abilities": [
+        {
+            "type": "RepairFieldAbility",
+            "amount": 10.0,
+            "reload": 240.0
+        }
+    ],
+    "weapons": [
+        {
+            "type": "Weapon",
+            "name": "heal-weapon",
+            "bullet": {
+                "type": "LaserBoltBulletType",
+                "lifetime": 30.0,
+                "speed": 5.2,
+                "damage": 10.0,
+                "collidesTeam": true,
+                "range": 156.0,
+                "healPercent": 10,
+                "lightningType": "damageLightning",
+                "lightRadius": 20.0,
+                "cachedDps": 13.0,
+                "backColor": "#98ffa9ff",
+                "frontColor": "#ffffffff",
+                "backRegion": "bullet-back",
+                "frontRegion": "bullet"
+            },
+            "flipSprite": true,
+            "alternate": false,
+            "baseRotation": -0.0,
+            "top": false,
+            "reload": 48.0,
+            "recoil": 2.0,
+            "recoilTime": 48.0,
+            "shootX": -0.0,
+            "shootY": 2.0,
+            "x": -4.5,
+            "shoot": {
+                "type": "ShootPattern"
+            },
+            "otherSide": 0,
+            "shootSound": "shootLaser"
+        }
+    ],
+    "deathSound": "unitExplode1",
+    "wreckSound": "wreckFall",
+    "engines": [
+        {
+            "y": -5.0,
+            "radius": 2.5,
+            "rotation": -90.0
+        }
+    ],
+    "flowfieldPathType": 0,
+    "defaultCommand": "move",
+    "stances": [
+        "stop",
+        "holdfire",
+        "pursuetarget",
+        "patrol",
+        "ram"
+    ],
+    "itemCapacity": 30,
+    "ammoCapacity": 87,
+    "mechStride": 4.0,
+    "segmentSpacing": 8.0
+}

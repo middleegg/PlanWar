@@ -1,0 +1,118 @@
+{
+    "immunities": [
+        "melting",
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc",
+        "burning"
+    ],
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseCategory": "unit",
+    "databaseTag": "unit-ground",
+    "speed": 0.6,
+    "rotateSpeed": 3.0,
+    "drag": 0.4,
+    "hitSize": 13.0,
+    "stepShake": 0.0,
+    "health": 600.0,
+    "armor": 3.0,
+    "range": 107,
+    "maxRange": 107,
+    "dpsEstimate": 87,
+    "clipSize": 120.0,
+    "groundLayer": 74.0,
+    "flyingLayer": 115.0,
+    "aimDst": 26.0,
+    "mineBeamOffset": 6.5,
+    "shadowElevation": 0.2,
+    "lightRadius": 60.0,
+    "fogRadius": 21.75,
+    "targetAir": false,
+    "allowLegStep": true,
+    "hovering": true,
+    "singleTarget": true,
+    "weapons": [
+        {
+            "type": "Weapon",
+            "name": "atrax-weapon",
+            "inaccuracy": 15,
+            "bullet": {
+                "type": "LiquidBulletType",
+                "lifetime": 57.0,
+                "speed": 2.5,
+                "damage": 13.0,
+                "drag": 0.0008,
+                "shootEffect": "shootSmall",
+                "status": "melting",
+                "collidesAir": false,
+                "range": 112,
+                "hitColor": "#ffa166ff",
+                "lightningType": "damageLightningGround",
+                "lightRadius": 20.0,
+                "lightOpacity": 0.4,
+                "lightColor": "#f0511d66",
+                "cachedDps": 13.0,
+                "liquid": "slag"
+            },
+            "top": false,
+            "reload": 18.0,
+            "recoil": 1.0,
+            "recoilTime": 18.0,
+            "x": 7.0,
+            "shoot": {
+                "type": "ShootPattern",
+                "shots": 3
+            },
+            "otherSide": 1,
+            "shootSound": "shootAtrax"
+        }
+    ],
+    "deathSound": "unitExplode2",
+    "wreckSound": "wreckFall",
+    "stepSound": "walkerStepSmall",
+    "stepSoundVolume": 0.25,
+    "engines": [
+        {
+            "y": -5.0,
+            "radius": 2.5,
+            "rotation": -90.0
+        }
+    ],
+    "flowfieldPathType": 1,
+    "pathCostId": 2,
+    "defaultCommand": "move",
+    "stances": [
+        "stop",
+        "holdfire",
+        "pursuetarget",
+        "patrol",
+        "ram"
+    ],
+    "itemCapacity": 50,
+    "ammoCapacity": 233,
+    "legLength": 9.0,
+    "legForwardScl": 0.6,
+    "legMoveSpace": 1.39,
+    "mechStride": 6.35,
+    "segmentSpacing": 13.0,
+    "type": "legs"
+}

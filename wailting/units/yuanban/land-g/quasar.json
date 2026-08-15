@@ -1,0 +1,126 @@
+{
+    "databaseCategory": "unit",
+    "databaseTag": "unit-ground",
+    "speed": 0.5,
+    "boostMultiplier": 2.0,
+    "hitSize": 13.0,
+    "stepShake": 0.0,
+    "riseSpeed": 0.05,
+    "descentSpeed": 0.05,
+    "health": 640.0,
+    "armor": 9.0,
+    "range": 146.0,
+    "maxRange": 146.0,
+    "dpsEstimate": 294,
+    "clipSize": 124.0,
+    "flyingLayer": 115.0,
+    "buildSpeed": 1.1,
+    "aimDst": 26.0,
+    "mineBeamOffset": 6.5,
+    "lightRadius": 60.0,
+    "fogRadius": 21.75,
+    "canBoost": true,
+    "canHeal": true,
+    "singleTarget": true,
+    "drawShields": false,
+    "abilities": [
+        {
+            "type": "ForceFieldAbility",
+            "regen": 0.4,
+            "max": 500.0,
+            "cooldown": 360.0
+        }
+    ],
+    "weapons": [
+        {
+            "type": "Weapon",
+            "name": "beam-weapon",
+            "bullet": {
+                "type": "LaserBulletType",
+                "damage": 45.0,
+                "drawSize": 300.0,
+                "collidesTeam": true,
+                "range": 150.0,
+                "healPercent": 15.0,
+                "lightningType": "damageLightning",
+                "lightRadius": 20.0,
+                "cachedDps": 90.0,
+                "colors": [
+                    "#98ffa966",
+                    "#98ffa9ff",
+                    "#ffffffff"
+                ],
+                "length": 150.0,
+                "sideLength": 70.0,
+                "sideWidth": 1.0,
+                "sideAngle": 45.0
+            },
+            "top": false,
+            "reload": 110.0,
+            "shake": 2.0,
+            "recoil": 4.0,
+            "recoilTime": 110.0,
+            "shootY": 4.0,
+            "x": 6.5,
+            "shoot": {
+                "type": "ShootPattern"
+            },
+            "otherSide": 1,
+            "shootSound": "shootLancer"
+        }
+    ],
+    "deathSound": "unitExplode2",
+    "wreckSound": "wreckFall",
+    "stepSoundVolume": 0.6,
+    "stepSoundPitch": 0.89,
+    "engines": [
+        {
+            "y": -5.0,
+            "radius": 2.5,
+            "rotation": -90.0
+        }
+    ],
+    "flowfieldPathType": 0,
+    "defaultCommand": "move",
+    "stances": [
+        "stop",
+        "holdfire",
+        "pursuetarget",
+        "patrol",
+        "ram"
+    ],
+    "itemCapacity": 50,
+    "ammoCapacity": 38,
+    "mineTier": 3,
+    "mineSpeed": 4.0,
+    "mechLandShake": 2.0,
+    "mechFrontSway": 0.55,
+    "mechStride": 6.38,
+    "segmentSpacing": 13.0,
+    "type": "mech",
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "type": "mech",
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "burning",
+        "biotoxicityc"
+    ],
+    "speed": 0.55,
+    "hitSize": 10,
+    "health": 600,
+    "armor": 6,
+    "weapons": [
+        {
+            "name": "flamethrower",
+            "mirror": true,
+            "reload": 8,
+            "shootSoundVolume": 0.5,
+            "top": false,
+            "ejectEffect": "none",
+            "shootSound": "flame",
+            "shootY": 2,
+            "recoil": 1,
+            "bullet": {
+                "ammoMultiplier": 3,
+                "hitSize": 7,
+                "lifetime": 38,
+                "rangeOverride": 48,
+                "maxRange": 48,
+                "collidesTiles": true,
+                "collides": true,
+                "collidesAir": true,
+                "collidesGround": true,
+                "pierce": true,
+                "pierceBuilding": true,
+                "damage": 20,
+                "status": "burning",
+                "statusDuration": 360,
+                "keepVelocity": false,
+                "hittable": false,
+                "range": 60,
+                "lightningType": "damageLightning",
+                "lightRadius": 35.0,
+                "cachedDps": 148.0,
+                "type": "FireBulletType",
+                "pierceCap": 3,
+                "shootEffect": "shootSmallFlame",
+                "hitEffect": "hitFlameSmall",
+                "despawnEffect": "none"
+            }
+        }
+    ]
+}

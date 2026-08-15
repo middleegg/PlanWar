@@ -1,0 +1,141 @@
+{
+    "shownPlanets": [
+        "serpulo",
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "speed": 0.5,
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc"
+    ],
+    "rotateSpeed": 3.0,
+    "hitSize": 13.0,
+    "stepShake": 0.0,
+    "health": 950.0,
+    "armor": 11.0,
+    "range": 236.0,
+    "maxRange": 236.0,
+    "dpsEstimate": 80.0,
+    "clipSize": 156.0,
+    "flyingLayer": 115.0,
+    "aimDst": 26.0,
+    "mineBeamOffset": 6.5,
+    "lightRadius": 60.0,
+    "fogRadius": 21.75,
+    "targetAir": false,
+    "singleTarget": true,
+    "weapons": [
+        {
+            "name": "artillery",
+            "inaccuracy": 5,
+            "shoot": {
+                "type": "ShootPattern"
+            },
+            "bullet": {
+                "type": "ArtilleryBulletType",
+                "lifetime": 116.5,
+                "speed": 2.0,
+                "damage": 30.0,
+                "hitEffect": "blastExplosion",
+                "splashDamage": 90.0,
+                "knockback": 0.89,
+                "collidesTiles": true,
+                "collides": true,
+                "maxRange": 240.0,
+                "range": 240.0,
+                "despawnHit": true,
+                "splashDamageRadius": 35.0,
+                "lightningType": "damageLightningGround",
+                "lightRadius": 20.0,
+                "cachedDps": 80.0,
+                "width": 14.0,
+                "height": 14.0
+            },
+            "ejectEffect": "casing2",
+            "top": false,
+            "reload": 120.0,
+            "shake": 2.0,
+            "recoil": 4.0,
+            "recoilTime": 120.0,
+            "x": 9.0,
+            "y": 1.0,
+            "otherSide": 1,
+            "shootSound": "shootArtillery"
+        },
+        {
+            "name": "artillery",
+            "inaccuracy": 5,
+            "shoot": {
+                "type": "ShootPattern"
+            },
+            "bullet": {
+                "type": "ArtilleryBulletType",
+                "lifetime": 116.5,
+                "speed": 2.0,
+                "damage": 30.0,
+                "hitEffect": "blastExplosion",
+                "splashDamage": 90.0,
+                "knockback": 0.800000011920929,
+                "collidesTiles": true,
+                "collides": true,
+                "maxRange": 240.0,
+                "range": 240.0,
+                "despawnHit": true,
+                "splashDamageRadius": 35.0,
+                "lightningType": "damageLightningGround",
+                "lightRadius": 20.0,
+                "cachedDps": 80.0,
+                "width": 14.0,
+                "height": 14.0
+            },
+            "ejectEffect": "casing2",
+            "flipSprite": true,
+            "baseRotation": -0.0,
+            "top": false,
+            "reload": 120.0,
+            "shake": 2.0,
+            "recoil": 4.0,
+            "recoilTime": 120.0,
+            "shootX": -0.0,
+            "x": -9.0,
+            "y": 1.0,
+            "otherSide": 0,
+            "shootSound": "shootArtillery"
+        }
+    ],
+    "deathSound": "unitExplode2",
+    "wreckSound": "wreckFall",
+    "stepSoundVolume": 0.6499999761581421,
+    "stepSoundPitch": 0.800000011920929,
+    "engines": [
+        {
+            "y": -5.0,
+            "radius": 2.5,
+            "rotation": -90.0
+        }
+    ],
+    "itemCapacity": 50,
+    "ammoCapacity": 35,
+    "mechFrontSway": 0.550000011920929,
+    "mechStride": 6.380952835083008,
+    "segmentSpacing": 13.0,
+    "type": "mech"
+}

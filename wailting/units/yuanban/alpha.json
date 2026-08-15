@@ -1,0 +1,65 @@
+{
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc"
+    ],
+    "mineSpeed": 2.25,
+    "accel": 10,
+    "itemCapacity": 50,
+    "buildSpeed": 1.25,
+    "weapons": [
+        {
+            "name": "small-basic-weapon",
+            "reload": 11,
+            "x": 2.5,
+            "y": 1.5,
+            "rotate": false,
+            "inaccuracy": 0,
+            "shootSound": "shootAlpha",
+            "alternate": true,
+            "ejectEffect": "casing1",
+            "bullet": {
+                "buildingDamageMultiplier": 1.25,
+                "damage": 11.0,
+                "speed": 2.5,
+                "backColor": "#ffd27eff",
+                "width": 1.5,
+                "height": 4.5,
+                "lightningType": "damageLightning",
+                "lightRadius": 20.0,
+                "type": "LaserBoltBulletType",
+                "lifetime": 60,
+                "hitEffect": "hitBulletColor",
+                "despawnEffect": "hitBulletColor",
+                "shootEffect": "shootSmallColor",
+                "smokeEffect": "hitLaserColor",
+                "frontColor": "#ffffffff",
+                "hitColor": "#ffd27eff",
+                "trailColor": "#ffd27eff",
+                "trailLength": 3,
+                "trailWidth": 1.2
+            }
+        }
+    ]
+}

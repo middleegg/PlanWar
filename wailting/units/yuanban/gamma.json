@@ -1,0 +1,116 @@
+{
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc"
+    ],
+    "mineSpeed": 4.25,
+    "accel": 10,
+    "itemCapacity": 100,
+    "buildSpeed": 1.75,
+    "weapons": [
+        {
+            "name": "gammagun",
+            "reload": 9,
+            "x": -3.5,
+            "y": 3.5,
+            "rotate": false,
+            "top": false,
+            "inaccuracy": 0,
+            "shootSound": "shoot",
+            "shootSoundVolume": 0.5,
+            "alternate": true,
+            "ejectEffect": "casing2",
+            "shoot": {
+                "shots": 3,
+                "shotDelay": 3
+            },
+            "bullet": {
+                "lifetime": 60,
+                "speed": 5,
+                "damage": 7,
+                "hitEffect": "hitBulletColor",
+                "despawnEffect": "hitBulletColor",
+                "shootEffect": "shootSmallColor",
+                "smokeEffect": "hitLaserColor",
+                "buildingDamageMultiplier": 1.1,
+                "keepVelocity": false,
+                "range": 245.0,
+                "width": 4.5,
+                "height": 8.5,
+                "hitColor": "#ffd27eff",
+                "trailColor": "#ffd27eff",
+                "trailLength": 4,
+                "trailWidth": 1.2000000476837158,
+                "lightningType": "damageLightning",
+                "lightRadius": 20.0,
+                "backColor": "#ffd27eff",
+                "frontColor": "#ffffffff"
+            }
+        },
+        {
+            "type": "Weapon",
+            "name": "small-mount-weapon",
+            "shoot": {
+                "type": "ShootSpread",
+                "shots": 3,
+                "spread": 2.0
+            },
+            "bullet": {
+                "type": "LaserBoltBulletType",
+                "lifetime": 70.0,
+                "speed": 3.5,
+                "damage": 13.0,
+                "hitEffect": "hitBulletColor",
+                "despawnEffect": "hitBulletColor",
+                "shootEffect": "shootSmallColor",
+                "smokeEffect": "hitLaserColor",
+                "buildingDamageMultiplier": 2,
+                "keepVelocity": false,
+                "range": 245.0,
+                "hitColor": "#ffd27eff",
+                "trailColor": "#ffd27eff",
+                "trailLength": 4,
+                "trailWidth": 1.3,
+                "homingPower": 0.03,
+                "lightningType": "damageLightning",
+                "lightRadius": 20.0,
+                "cachedDps": 11.0,
+                "backColor": "#ffd27eff",
+                "frontColor": "#ffffffff",
+                "width": 1.5,
+                "height": 5.0
+            },
+            "top": false,
+            "reload": 30.0,
+            "rotate": true,
+            "inaccuracy": 3.0,
+            "mirror": true,
+            "recoilTime": 30.0,
+            "x": -1.0,
+            "y": 2.0,
+            "otherSide": 1,
+            "shootSound": "shootAlpha"
+        }
+    ]
+}

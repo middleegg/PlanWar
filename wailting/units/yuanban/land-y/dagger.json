@@ -1,0 +1,54 @@
+{
+    "shownPlanets": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "databaseTabs": [
+        "serpulo",
+        "solarpale",
+        "lavisinia",
+        "crusel",
+        "sun",
+        "newpulo",
+        "lavisinib",
+        "lavisinic"
+    ],
+    "type": "mech",
+    "speed": 0.55,
+    "immunities": [
+        "biotoxicitya",
+        "biotoxicityb",
+        "biotoxicityc"
+    ],
+    "hitSize": 8,
+    "health": 190,
+    "weapons": [
+        {
+            "shoot": {
+                "shotDelay": 8,
+                "shots": 2
+            },
+            "name": "large-weapon",
+            "x": 4,
+            "y": 2,
+            "mirror": true,
+            "reload": 15,
+            "top": false,
+            "ejectEffect": "casing1",
+            "bullet": {
+                "speed": 2.5,
+                "width": 4,
+                "height": 6,
+                "damage": 14,
+                "shrinkY": 0,
+                "shrinkX": 0
+            }
+        }
+    ]
+}
