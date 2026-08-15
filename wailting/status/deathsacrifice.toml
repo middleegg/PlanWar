@@ -1,7 +1,0 @@
-   decreaseMaxHealth = 0.05
-   damageMultiplier = 2
-   speedMultiplier = 1.1
-   reloadMultiplier = 2.99
-   damage = 0.3
-   permanent = true
-   color = "C3C3C3FF"
